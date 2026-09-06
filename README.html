@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> position exercise </title>
+</head>
+<body style="
+  height: 3000px;
+  padding-top: 50px;
+  padding-left: 70px;
+  ">
+  <div style="background-color: black; color: white;position: fixed;
+  top: 0px; left: 0px;right: 0px; height: 50px; z-index: 2;">
+    header
+  </div>
+
+  <div style="background-color: green; color:white; position:fixed; top:50px; bottom:0px; left: 0px; width: 70px;">
+    sidebar
+     <div style="
+  
+    position:absolute;
+    background-color: red; color: white;
+    right:0px;
+    top: 0px;
+    z-index: 1;
+    "
+    >
+
+    x
+    </div>
+  </div>
+  
+  <div style="
+  
+    position:relative;
+    background-color: red; color: white;
+    height: 100px;
+    width: 200px;
+    z-index: 1;
+    "
+    >
+
+    relative
+    <div style="
+  
+    position:absolute;
+    background-color: red; color: white;
+    right:10px;
+    top: 60px;
+    z-index: 1;
+    "
+    >
+
+    absolute
+  </div>
+  </div>
+
+
+  
+
+  <div style="background-color: blue; height: 200px; width: 200px; position: static; position:relative;">
+
+        <div style="
+  
+    position:absolute;
+    background-color: red; color: white;
+    right:10px;
+    bottom: 10px;
+    z-index: 1;
+    "
+    >
+
+    5:10
+  </div>
+  
+  </div>
+    
+
+  </div>
+
+  <div style="background-color: red; height: 200px; width: 200px;">
+
+  </div>
+
+  
+</body>
+</html>
+
