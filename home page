@@ -1,0 +1,30 @@
+
+
+<DOCTYPE html>
+
+  <html>
+
+  <head>  
+
+    
+<title> buttons</title>
+
+<link rel="stylesheet" href="styles/buttons.css">
+
+  </head>
+
+  <body>  
+
+
+
+
+<button class="subscribe-button">
+    SUBSCRIBE </button class="subscribe-button">
+
+<button class="like-button"> like </button class="like-button">
+
+
+ 
+  </body>
+  </html>
+</DOCTYPE>>
